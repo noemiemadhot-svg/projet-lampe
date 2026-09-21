@@ -1,0 +1,19 @@
+public class Lampe {
+
+  int puissance;
+  boolean allumer;
+
+public Lampe(int puissance){
+  this.puissance = puissance;
+  this.allumer = false;
+}
+public void allumer(){
+  allumee = true;
+}
+
+public void eteindre(){
+  allumee = false;
+}
+
+public boolean estAllumee(){
+return allume;
